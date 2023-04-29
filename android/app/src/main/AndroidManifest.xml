@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.wraithzai.eight_magic_ball">
    <application
-        android:label="eight_magic_ball"
+        android:label="8 Magic Ball"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

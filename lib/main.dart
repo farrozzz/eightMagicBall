@@ -4,6 +4,7 @@ import 'dart:math';
 void main(){
   return runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.blueAccent,
         appBar: AppBar(
@@ -11,7 +12,7 @@ void main(){
       backgroundColor: Colors.black87,
         ),
     body: const MagicBallPage(),
-  ),
+      ),
   ),
   );
 }
