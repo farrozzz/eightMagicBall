@@ -7,10 +7,10 @@ void main(){
       home: Scaffold(
         backgroundColor: Colors.blueAccent,
         appBar: AppBar(
-      title: Text ("Eight Magic Ball"),
+      title: const Text ("Eight Magic Ball"),
       backgroundColor: Colors.black87,
         ),
-    body: MagicBallPage(),
+    body: const MagicBallPage(),
   ),
   ),
   );
